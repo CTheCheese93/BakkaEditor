@@ -1,7 +1,8 @@
-import { useCallback } from "react";
-import { PageLinkElement, DefaultElement, Leaf} from "./Elements/Elements"
+import { PageLinkElement } from "./Elements/PageLinkElement"
+import { DefaultElement } from "./Elements/DefaultElement"
+import { Leaf } from "./Elements/Leaf"
 
-const renderElement = useCallback((props) => {
+export function renderElement(props) {
     switch (props.element.type) {
         case 'pagelink':
             return <PageLinkElement {...props} />
@@ -9,13 +10,8 @@ const renderElement = useCallback((props) => {
         default:
             return <DefaultElement {...props} />
     }
-});
+}
 
-const renderLeaf = useCallback(props => {
+export function renderLeaf(props) {
     return <Leaf {...props} />
-}, [])
-
-export default {
-    renderElement,
-    renderLeaf
 }

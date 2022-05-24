@@ -1,5 +1,14 @@
-export default function PageLinkElement(props) {
+import { Transforms } from "slate";
+import { useSlate } from "slate-react";
+
+export function PageLinkElement(props) {
     const editor = useSlate();
+
+    const pageLinkOpenLink = (e, url) => {
+        if (e.ctrlKey) {
+            window.open(url, '_blank')
+        }
+    }
 
     const pageLinkPromptEdit = (e, element) => {
         let newUrl = prompt("",element.url);

@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Page from './Page';
 
 import { StandaloneEditor } from './Components/StandaloneEditor';
+import {BakkaEditor} from './Components/BakkaEditor/BakkaEditor';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +16,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<StandaloneEditor />} />
-          <Route path=":pageId" element={<Page />} />
+          <Route path=":pageId" element={<BakkaEditor />} />
         </Route>
       </Routes>
     </BrowserRouter>

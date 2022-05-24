@@ -1,16 +1,16 @@
-import DefaultElement from "./DefaultElement";
-import Leaf from "./Leaf";
+import { DefaultElement as defaultElement } from "./DefaultElement";
+import { Leaf as leaf } from "./Leaf";
 
-import PageLinkElement from "./PageLinkElement";
+import {PageLinkElement as pageLinkElement } from "./PageLinkElement";
 
 export function DefaultElement() {
-    return DefaultElement;
+    return defaultElement;
 }
 
 export function Leaf() {
-    return Leaf;
+    return leaf;
 }
 
 export function PageLinkElement() {
-    return PageLinkElement;
+    return pageLinkElement;
 }

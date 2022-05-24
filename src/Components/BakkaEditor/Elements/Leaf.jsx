@@ -1,4 +1,4 @@
-export default Leaf = props => {
+export function Leaf (props) {
     return (
       <span
         {...props.attributes}

@@ -110,27 +110,27 @@ export default function Page() {
 
     const renderLeaf = useCallback(props => {
     return <Leaf {...props} />
-    }, [])
+    }, [])  
 
-    const onKeyDown = (event, editor) => {
-    if (!event.ctrlKey) {
-        return
+    function onKeyDown(event, editor) {
+      if (!event.ctrlKey) {
+          return
+      }
+  
+      switch(event.key) {
+          case '`': {
+          event.preventDefault();
+          CustomEditor.togglePageLink(editor);
+          break;
+          }
+  
+          case 'b': {
+          event.preventDefault();
+          CustomEditor.toggleBoldMark(editor);
+          break;
+          }
+      }
     }
-
-    switch(event.key) {
-        case '`': {
-        event.preventDefault();
-        CustomEditor.togglePageLink(editor);
-        break;
-        }
-
-        case 'b': {
-        event.preventDefault();
-        CustomEditor.toggleBoldMark(editor);
-        break;
-        }
-    }
-    }    
 
     useEffect(() => {
         if (isPageLoaded == false || params.pageId !== currentPageId) {
