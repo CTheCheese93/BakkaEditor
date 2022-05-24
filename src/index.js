@@ -16,7 +16,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<StandaloneEditor />} />
-          <Route path=":pageId" element={<BakkaEditor />} />
+          <Route path=":pageId" element={<Page />} />
         </Route>
       </Routes>
     </BrowserRouter>
