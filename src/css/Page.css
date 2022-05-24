@@ -1,0 +1,12 @@
+.page {
+    width: 80%;
+    background-color: aliceblue;
+    display: inline-block;
+    padding: 20px 30px;
+    text-align: left;
+    height: 100%;
+  }
+
+.page .toolbar {
+  background-color: turquoise;
+}

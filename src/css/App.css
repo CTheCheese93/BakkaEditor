@@ -1,0 +1,27 @@
+.App {
+  background-color: antiquewhite;
+  width: 100%;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+}
+
+.page-link {
+  width: 100%;
+  background-color: lightcyan;
+  min-height: 4em;
+}
+
+.page-link .edit {
+  float: right;
+}
+
+.cabinet {
+  display: flex;
+  padding: 1rem;
+}
+
+.cabinet nav {
+  border-right: solid 1px;
+  padding: 1rem;
+}
