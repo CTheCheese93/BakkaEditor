@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# What is BakkaEditor?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**BakkaEditor** is built primarily using **ReactJS** and **SlateJS**, and is a prototype of a **Knowledge Management Product** *with an alternative code name* that has no official repo, website, or publicity of any kind.
 
-## Available Scripts
+## Why Bakka?
+Because I'm a bakka for thinking I could develop this alone.
 
-In the project directory, you can run:
+## What's the point?
+My friend and I both have a strong interest in **Knowledge Management**, thought to be a side effect of having ADHD and needing a solid place to dump our thoughts and keep it organized.
 
-### `npm start`
+## Okay, but what IS BakkaEditor [going to be]?
+At a glance, it could be mistaken for just a note taking application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Everything you will be working with will be done in the form of **Pages** that you can add content into (Text, Images, Links, etc.), and as such you can make a simple list like this:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* First Item
+* Second Item
+* Third Item
 
-### `npm test`
+But to take it a step further, you could turn every item on that list into it's own page that can be edited with a click of a button (or shortcut).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This would create a new page for each item and insert the text of each item as the header for the respective page. The original page that contains the list would then show the same text, but now will link back to a page.
 
-### `npm run build`
+Beyond this, we intend to setup the ability to create **views** inside of page that will allow you to filter the information that is presented.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+An example of this might be if you had many pages tagged as "Task" under various categories and you created a page where you added **filter views** that listed all the tasks for a specific category.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The result? A single page that always contains an updated list of any tasks you create that are tagged as such and categorized, regardless of what page you were on when you created it.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Can I download and use BakkaEditor?
+You *could* download it and you *could* "use" it, but so long as you're looking at this repo, I doubt it will ever be in a condition for actual use.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Instead, watch the project and be on the look out for when we do begin to work on the offical product.
